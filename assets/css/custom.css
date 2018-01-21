@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@font-face {
+    font-family: champagne;
+    src: url(../fonts/cac_champagne.ttf);
+}
 
 .modal-dialog {
       width: 100%;
@@ -120,11 +123,13 @@
 
 .port {
   color: #0583E0 !important;
+  font-family: 'champagne';
+  font-size: 40px;
 }
 
 .color-back {
   background: #0583e0;
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 3%;
   color: white;
   opacity: .7;
@@ -135,11 +140,16 @@
 }
 
 .quote-here {
-  font-family: 'Great Vibes', cursive;
-  font-size: 17px;
+  font-family: 'champagne';
+  font-size: 50px;
+  margin-top: 11%;
 }
-
 
 .company-name {
   font-size: 3rem;
+}
+
+.languages {
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
