@@ -124,12 +124,12 @@
 .port {
   color: #0583E0 !important;
   font-family: 'champagne';
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .color-back {
   background: #0583e0;
-  padding-top: 5%;
+  /* padding-top: 5%; */
   padding-bottom: 3%;
   color: white;
   opacity: .7;
